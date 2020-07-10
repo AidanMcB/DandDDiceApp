@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <title>Document</title>
+    <h1 id="title1">Dungeons and Dragons Dice Rolling & Currency Converting</h1>
+</head>
+<body>
+
+    
+
+<div id="bg">
+            
+    <p id="bga">
+    <label>D20</label>   
+    <button onclick="d20()" id="d20"> d20 </button>
+    <label>D12</label>
+    <button onclick="d12()" id="d12"> d12 </button>
+    <label>D10</label>
+    <button onclick="d10()" id="d10"> d10 </button>
+    <label>D8</label>
+    <button onclick="d8()" id="d8"> d8 </button>
+    <label>D6</label>
+    <button onclick="d6()" id="d6"> d6 </button>
+    <label>D4</label>
+    <button onclick="d4()" id="d4"> d4 </button>
+    </p>
+</div>
+
+
+
+<div id="currency">
+    <input id="c1" type="text" placeholder="starting currency"><br>
+    <select id="cT1">
+        <option value="cp">Copper</option>
+        <option value="sp">Siver</option>
+        <option value="ep">Electrum</option>
+        <option value="gp">Gold</option>
+        <option value="pp">Platinum</option>
+    </select>
+    <p id="to">To</p>
+    <select id="cT2">
+            <option value="cp2">Copper</option>
+            <option value="sp2">Siver</option>
+            <option value="ep2">Electrum</option>
+            <option value="gp2">Gold</option>
+            <option value="pp2">Platinum</option>
+    
+    </select><br>
+
+    <button id="curBtn" onclick="convert()">Eval</button>
+    <input id="cur" type="text" placeholder="Currency"></input>
+</div>
+<h2 id="title2">Calculator</h2>
+
+<div id="Maths">
+        <input id="input1" type="text" placeholder="a number"><br><br>
+        <input id="input2" type="text" placeholder="another number"><br>  <br>
+        <select id="operators">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+            <option value="*">*</option>
+        </select>
+        <button id="calc" onclick="calculate()">=</button><br><br>
+        <input id="result" type="text" placeholder="result">
+    </div>
+</body>
+</html>
