@@ -15,8 +15,11 @@
     height: 105px;
     border: 3px solid white;
  }
-
+label{
+    color:white;
+}
  #bg{
+    margin-top: 5em;
     text-align: center;
     display: center;
     justify-content: space-between;
@@ -41,41 +44,45 @@
     width: 100px;
  }
  #currency{
+    margin-top: 5em;
+    font-size: 16px;
     display: flex;
     justify-content: center;
+    align-items: center;
  }
  #c1,
  #cur{
-    height: 25px;
-    margin-left: 5px;
-    margin-right: 5px;
-    
+    font-size: 16px;
+ }
+ #cur{
+    margin-left:1em;
  }
  #curBtn,
  #calc{
     height: 40px;
     width: 90px;
     font-size: 20px;
-    border: 3px solid black;
-    margin-left: 5px;
-    margin-right: 5px;
+    border: 3px solid white;
+    margin: 22px;
     background-color: green;
  }
  #cT1, #cT2{
-    margin-top: 7px;
-    margin-right: 5px;
-    margin-left: 5px;
-
+    margin: 20px;
+    font-size: 16px;
  }
  #to{
-    color:white;
+    color:White;
  }
  
  #Maths{
     margin-top: 10px;
     text-align: center;
  }
+ #input1, #input2, #result{
+    font-size: 16px;
+ }
  #title1{
+    margin-top: 1em;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
@@ -88,4 +95,7 @@
     font-size: 35px;
     color: white;
     text-shadow: 2px 2px black;
+ }
+ #operators{
+    font-size: 20px;
  }
