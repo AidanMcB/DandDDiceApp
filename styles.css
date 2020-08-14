@@ -1,87 +1,101 @@
 *, *::before, *::after {
     color:Black;
  } 
- body {
- background-color: rgba(0, 102, 255, 0.5);
+ body{
+    background-image: url('./assets/d&dbackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
  
- }
  button {
-     font-size: 35px;
-     color: white;
-     background: linear-gradient( rgb(218, 197, 16), green );
-     width: 100px;
-     height: 105px;
-     border: 3px solid blue;
+    font-size: 35px;
+    color: white;
+    background: linear-gradient( rgb(218, 197, 16), green );
+    width: 100px;
+    height: 105px;
+    border: 3px solid white;
  }
- 
+label{
+    color:white;
+}
  #bg{
-     text-align: center;
-     display: center;
-     justify-content: space-between;
+    margin-top: 5em;
+    text-align: center;
+    display: center;
+    justify-content: space-between;
  }
  /*#bga:visited {
  color:red;
  }*/
  
  #dice{
-     margin: auto;
-     width: 50%;
-     border: 3px solid black;
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
    }
  label{
-     font-size: 28px;
+    font-size: 28px;
  }
  #input1{
-     width: 100px;
+    width: 100px;
  }
  #calc{
-     height: 100px;
-     width: 100px;
+    height: 100px;
+    width: 100px;
  }
  #currency{
-     display: flex;
-     justify-content: center;
+    margin-top: 5em;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
  #c1,
  #cur{
-    height: 25px;
-    margin-left: 5px;
-    margin-right: 5px;
-    
+    font-size: 16px;
+ }
+ #cur{
+    margin-left:1em;
  }
  #curBtn,
  #calc{
-     height: 40px;
-     width: 90px;
-     font-size: 20px;
-     border: 3px solid black;
-     margin-left: 5px;
-     margin-right: 5px;
-     background-color: green;
+    height: 40px;
+    width: 90px;
+    font-size: 20px;
+    border: 3px solid white;
+    margin: 22px;
+    background-color: green;
  }
  #cT1, #cT2{
-     margin-top: 7px;
-     margin-right: 5px;
-     margin-left: 5px;
-  
+    margin: 20px;
+    font-size: 16px;
  }
  #to{
-     margin-top:6px;
+    color:White;
  }
  
  #Maths{
-     margin-top: 10px;
-     text-align: center;
+    margin-top: 10px;
+    text-align: center;
+ }
+ #input1, #input2, #result{
+    font-size: 16px;
  }
  #title1{
-     text-align: center;
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     font-size: 40px;
-     color: navy;
+    margin-top: 1em;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px black;
  }
  #title2{
-     text-align: center;
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     font-size: 35px;
-     color: navy;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px black;
+ }
+ #operators{
+    font-size: 20px;
  }
