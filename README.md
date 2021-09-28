@@ -12,8 +12,8 @@ Run the follwing command, based on your operating system
 
 ## Windows 
 
-start index.html
+``start index.html``
 
 ## Mac / Linux 
 
-open index.html
+``open index.html``
