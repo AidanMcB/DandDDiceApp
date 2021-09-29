@@ -23,6 +23,7 @@ function d4 () {
 
 function convert(){
     var n1 = parseFloat(document.getElementById("c1").value);
+    if(!n1) return;
     var n2 = document.getElementById("cT1").value;
     var n3 = document.getElementById("cT2").value;
 
@@ -114,6 +115,7 @@ function convert(){
 function calculate() {
     var input1 = parseFloat(document.getElementById("input1").value);
     var input2 = parseFloat(document.getElementById("input2").value);
+    if(!input1 || !input2) return;
     var result = document.getElementById('operators').value;
 
     if(result === '+'){
